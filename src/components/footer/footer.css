@@ -1,0 +1,61 @@
+footer {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+}
+
+footer a:hover {
+    color: blue;
+}
+
+.footer-info {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social {
+    display: flex;
+    padding: 1rem;
+    margin: 1rem ;
+}
+
+.footer-social a {
+    margin: 0 0.5rem;
+}
+
+.footer-fundraise {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-learn {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-resources {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-public {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-legal {
+    padding: 1rem;
+    display: flex;
+}
+
+.footer-legal p {
+    margin: 0 0.5rem;
+}

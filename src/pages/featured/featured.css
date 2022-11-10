@@ -1,0 +1,13 @@
+.featured {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.featured-items {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    margin: 1rem;
+}

@@ -1,0 +1,40 @@
+.contributing {
+    padding: 1rem;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contributing p {
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.contribution-steps {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.contribution-feature {
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.contribution-feature h4 {
+    background-color: blue;
+    width: 10px;
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.contribution-feature h3 {
+    font-weight: 600;
+}
+
+.contribution-feature p {
+    font-weight: 300;
+}

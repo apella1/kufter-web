@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+.navbar a:hover {
+    color: blue;
+}
+
+.navbar-logo {
+    color: blue;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-cta {
+    padding: 0.5rem 1rem;
+    color: blue;
+    border-radius: 10px;
+    background-color: beige;
+}
+
+.navbar-cta:hover {
+    background-color: white;
+}
