@@ -1,10 +1,10 @@
 import React from 'react'
 import './feature.css'
 
-const Feature = ({ title, url, text, postTitle}: string) => {
+const Feature = ({ title, url, text, postTitle}: {title: string, text: string, url: string, postTitle: string}) => {
   return (
     <div className='feature'>
-        <div className="feature-intro" style={{backgroundImage: {image}}}>
+        <div className="feature-intro">
             <h3>{title}</h3>
         </div>
         <div className="feature-description">

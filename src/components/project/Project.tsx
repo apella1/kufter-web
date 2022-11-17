@@ -1,7 +1,7 @@
 import React from 'react'
 import './project.css'
 
-const Project = ( {imgUrl, title, projectDescription, amount, numberOfDonations} ) => {
+const Project = ( {imgUrl, title, projectDescription, amount, numberOfDonations}:{imgUrl: string, title: string, projectDescription: string, amount:  number, numberOfDonations: number} ) => {
   return (
     <div className='project'>
         <img src={imgUrl} alt={title.toLocaleLowerCase()} />
