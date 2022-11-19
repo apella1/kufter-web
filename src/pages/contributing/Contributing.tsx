@@ -5,7 +5,7 @@ const Contributing = () => {
   return (
     <section className="contributing">
       <p>Getting Started</p>
-      <h2>Getting started with Kufter takes a shorter time than you think.</h2>
+      <h2>We've made saving the world as easy as three steps.</h2>
       <div className="contribution-steps">
         <div className="contribution-feature">
           <h4>1</h4>
@@ -30,3 +30,4 @@ const Contributing = () => {
 }
 
 export default Contributing
+

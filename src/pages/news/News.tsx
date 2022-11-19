@@ -8,7 +8,7 @@ const News = () => {
       <h4>Events occurring new you</h4>
       <h3>Fundraisers around you</h3>
       <div className="news-items">
-        
+
       </div>
     </section>
   )

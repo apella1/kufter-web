@@ -4,17 +4,17 @@ import './fundraise.css'
 const Fundraise = () => {
   return (
     <section className="fundraise">
-      <h4>Show the world what you care for.</h4>
-      <h3>Who are you showing some love to today?</h3>
+      <h4>A dollar a day can change the world from burning.</h4>
+      <h3>Who are you helping save the world?</h3>
       <div className="fundraise-items">
         <div className="item">
-          <h3>Yourself</h3>
+          <h3>Individual</h3>
         </div>
         <div className="item">
-          <h3>Family & Friends</h3>
+          <h3>Organisation</h3>
         </div>
         <div className="item">
-          <h3>Charity</h3>
+          <h3>Community</h3>
         </div>
       </div>
     </section>
@@ -22,3 +22,4 @@ const Fundraise = () => {
 }
 
 export default Fundraise
+
